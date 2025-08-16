@@ -9,71 +9,53 @@
     },
     "favicon": "/favicon.svg",
     "navigation": {
-        "dropdowns": [
+        "tabs": [
             {
-                "dropdown": "Documentation",
-                "icon": "book-open",
-                "pages": [
-                    "quickstart",
-                    "development",
-                    "navigation"
+                "tab": "Guides",
+                "groups": [
+                    {
+                        "group": "Get Started",
+                        "pages": [
+                            "index",
+                            "quickstart",
+                            "development"
+                        ]
+                    },
+                    {
+                        "group": "Essentials",
+                        "pages": [
+                            "essentials/markdown",
+                            "essentials/code",
+                            "essentials/images",
+                            "essentials/settings",
+                            "essentials/navigation",
+                            "essentials/reusable-snippets"
+                        ]
+                    }
                 ]
             },
             {
-                "dropdown": "API reference",
-                "icon": "square-terminal",
-                "pages": [
-                    "api-reference/create",
+                "tab": "API Reference",
+                "groups": [
+                    {
+                        "group": "API Documentation",
+                        "pages": [
+                            "api-reference/introduction"
+                        ]
+                    },
+                    {
+                        "group": "Endpoint Examples",
+                        "pages": [
+                            "api-reference/endpoint/get",
+                            "api-reference/endpoint/create",
+                            "api-reference/endpoint/delete",
+                            "api-reference/endpoint/webhook"
+                        ]
+                    }
                 ]
             }
         ]
     },
-    "tabs": [
-        {
-            "tab": "Guides",
-            "groups": [
-                {
-                    "group": "Get Started",
-                    "pages": [
-                        "index",
-                        "quickstart",
-                        "development"
-                    ]
-                },
-                {
-                    "group": "Essentials",
-                    "pages": [
-                        "essentials/markdown",
-                        "essentials/code",
-                        "essentials/images",
-                        "essentials/settings",
-                        "essentials/navigation",
-                        "essentials/reusable-snippets"
-                    ]
-                }
-            ]
-        },
-        {
-            "tab": "API Reference",
-            "groups": [
-                {
-                    "group": "API Documentation",
-                    "pages": [
-                        "api-reference/introduction"
-                    ]
-                },
-                {
-                    "group": "Endpoint Examples",
-                    "pages": [
-                        "api-reference/endpoint/get",
-                        "api-reference/endpoint/create",
-                        "api-reference/endpoint/delete",
-                        "api-reference/endpoint/webhook"
-                    ]
-                }
-            ]
-        }
-    ],
     "global": {
         "anchors": [
             {
