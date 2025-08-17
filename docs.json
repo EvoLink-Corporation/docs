@@ -23,21 +23,18 @@
                 ]
             },
             {
-                "tab": "API Reference",
+                "tab": "Guides",
                 "groups": [
                     {
-                        "group": "API Documentation",
+                        "group": "Ruby Bus Services",
                         "pages": [
-                            "api-reference/introduction"
+                            "guides/ruby/route"
                         ]
                     },
                     {
-                        "group": "Endpoint Examples",
+                        "group": "LinkTropical",
                         "pages": [
-                            "api-reference/endpoint/get",
-                            "api-reference/endpoint/create",
-                            "api-reference/endpoint/delete",
-                            "api-reference/endpoint/webhook"
+                            "guides/linktropical/shift",
                         ]
                     }
                 ]
