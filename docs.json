@@ -1,82 +1,76 @@
 {
-    "$schema": "https://mintlify.com/docs.json",
-    "theme": "maple",
-    "name": "EvoLink Corporation Docs",
-    "colors": {
-        "primary": "#d18800",
-        "light": "#d18800",
-        "dark": "#d18800"
-    },
-    "favicon": "/favicon.svg",
-    "navigation": {
-        "tabs": [
-            {
-                "tab": "Documentation",
-                "groups": [
-                    {
-                        "group": "Overview",
-                        "pages": [
-                            "index",
-                            "community_standards"
-                        ]
-                    }
-                ]
-            },
-            {
-                "tab": "Guides",
-                "groups": [
-                    {
-                        "group": "Ruby Bus Services",
-                        "pages": [
-                            "guides/ruby/route"
-                        ]
-                    },
-                    {
-                        "group": "LinkTropical",
-                        "pages": [
-                            "guides/lt/shift"
-                        ]
-                    }
-                ]
-            }
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "EvoLink Corporation Docs",
+  "colors": {
+    "primary": "#d18800",
+    "light": "#d18800",
+    "dark": "#d18800"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "index",
+              "community_standards"
+            ]
+          }
         ]
-    },
-    "global": {
-        "anchors": [
-            {
-                "anchor": "Documentation",
-                "href": "https://mintlify.com/docs",
-                "icon": "book-open-cover"
-            },
-            {
-                "anchor": "Community",
-                "href": "https://mintlify.com/community",
-                "icon": "slack"
-            },
-            {
-                "anchor": "Blog",
-                "href": "https://mintlify.com/blog",
-                "icon": "newspaper"
-            }
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Ruby Bus Services",
+            "pages": [
+              "guides/ruby/route"
+            ]
+          }
         ]
-    },
-    "logo": {
-        "light": "/logo/light.png",
-        "dark": "/logo/dark.png"
-    },
-    "navbar": {
-        "links": [
-            {
-                "label": "Support",
-                "href": "mailto:support@evolinkrblx.com"
-            }
-        ]
-    },
-    "footer": {
-        "socials": {
-            "x": "https://x.com/Unknown_YTRBLX",
-            "github": "https://github.com/EvoLink-Corporation",
-            "linkedin": "https://www.linkedin.com/in/unxnownyt"
-        }
+      }
+    ]
+  },
+  "global": {
+    "anchors": [
+      {
+        "anchor": "Documentation",
+        "href": "https://mintlify.com/docs",
+        "icon": "book-open-cover"
+      },
+      {
+        "anchor": "Community",
+        "href": "https://mintlify.com/community",
+        "icon": "slack"
+      },
+      {
+        "anchor": "Blog",
+        "href": "https://mintlify.com/blog",
+        "icon": "newspaper"
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@evolinkrblx.com"
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/Unknown_YTRBLX",
+      "github": "https://github.com/EvoLink-Corporation",
+      "linkedin": "https://www.linkedin.com/in/unxnownyt"
     }
+  }
 }
